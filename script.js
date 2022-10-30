@@ -2,6 +2,7 @@ const wrapper = document.querySelector('.wrapper');
 const question = document.querySelector('.question');
 const yesBtn = document.querySelector('.yes-btn');
 const noBtn = document.querySelector('.no-btn');
+const coBtn = document.querySelector('.co-btn');
 
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
@@ -11,6 +12,9 @@ yesBtn.addEventListener('click', ()=>{
 });
 noBtn.addEventListener('click', ()=>{
     question.innerHTML = 'See u r smart, thats why i like you...so, still wanna date?';
+});
+coBtn.addEventListener('click', ()=>{
+    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=vishjeph520@gmail.com&su=RegardingYourRequestForDate&body=DearLove&bcc=vishmeena520@gmail.com');
 });
 
 noBtn.addEventListener('mouseover', () => {
