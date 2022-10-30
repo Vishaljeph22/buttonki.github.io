@@ -73,3 +73,9 @@ button:nth-child(2) {
     margin-right: -200px;
     color: #e6974e;
 }
+button:nth-child(3) {
+    
+    margin-top: 150px;
+    margin-right: -1050px;
+    color: #e6974e;
+}
